@@ -1,3 +1,4 @@
+#Python Tutorial taken from https://www.w3schools.com/python
 msg = 'Hello World'
 print (msg)
 
@@ -76,4 +77,44 @@ print(type(a))
 print(type(b))
 print(type(c)) 
 
-#
+#No inbuilt random function but there is a module
+
+import random
+
+print(random.randrange(1,10)) 
+
+#Although Python auto detects variables you can force select
+
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+
+print(x)
+print(y)
+print(z)
+
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+
+print(x)
+print(y)
+print(z)
+print(w)
+
+x = str("s1") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be '3.0' 
+
+print(x)
+print(y)
+print(z)
+
+#Multiline strings
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a) 
